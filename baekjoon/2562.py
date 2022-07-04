@@ -1,3 +1,6 @@
+from socket import AF_KEY
+
+
 numArray=[]
 for i in range(9):
     num=int(input())
