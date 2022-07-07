@@ -1,13 +1,13 @@
 num1=int(input())
 num2=int(input())
 num3=int(input())
-
-for i in range(10,10,90):
-    try :
-        numList = list(num1*num2*num3//i)
-    except :
-        break
-for i in range(1,10):
-    if numList[i]:
-        
-        print()
+num=str(num1*num2*num3)
+for k in range(0,10):
+    globals()['n_{}'.format(k)]=0
+for i in num:
+    for j in range(0,10):
+        if str(j)==i:
+            globals()['n_{}'.format(j)]+=1
+            break
+for k in range(0,10):
+    print(globals()['n_{}'.format(k)])
