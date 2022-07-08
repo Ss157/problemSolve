@@ -1,6 +1,6 @@
 T=int(input())
-for i in range(2):
-    R, str_1 =input().split()
-    R=int(R)
-    for j in str_1:
-        print(str_1[j]*R,end='')
+for i in range(T):
+    R, str_1 =map(str,input().split())
+    for j in range(len(str_1)):
+        print(str_1[j]*int(R),end='')
+    print()
