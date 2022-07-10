@@ -14,11 +14,15 @@ print("정수값 : {0}, string : {1}, float : {2}".format(10,"안녕하세요",1
 
 print("숫자 '{:>5d}'".format(300)) #5d는 양식문자로 5자리를 말함
 print("숫자 '{:<5d}'".format(300))
+print("숫자 '{:>05d}'".format(300))
 
 for i in range(5):
     print("{:<5}".format('*'*(i+1)))
-
+print("-----------")
 for i in range(5):
     for j in range(5, i, -1):
         print("*", end='')
     print()
+print("-----------")
+for i in range(5,0,-1):
+    print("{:<5}".format("*"*i))
