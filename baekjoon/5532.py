@@ -1,8 +1,8 @@
 L=int(input())
-totalKor=int(input())  #A
-totalMath=int(input()) #B
-dayKor=int(input())    #C
-dayMath=int(input())   #D
+totalKor=int(input())  #A국어
+totalMath=int(input()) #B수학
+dayKor=int(input())    #C국어
+dayMath=int(input())   #D수학
 math=totalMath/dayMath
 korean=totalKor/dayKor
 if math!=totalMath//dayMath:
