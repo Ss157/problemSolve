@@ -1,9 +1,8 @@
 T = int(input())
-score = list(input())
+score = list(map(float,input().split()))
 maxScore = max(score)
+sum=0
 for i in range(T):
-    if maxScore!=score[i]:
-        score[i]=score[i]/maxScore*100
+    score[i]=score[i]/maxScore*100
     sum+=score[i]
-avg=sum/len(score)
-print(avg)
+print(sum/T)
