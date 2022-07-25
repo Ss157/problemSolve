@@ -1,10 +1,10 @@
 name_list=[]
-cnt=0
-for i in range(5):
+cnt=""
+for i in range(1,6):
     name=input()
     if "FBI" in name:
-        cnt+=1
-if cnt>=1:
+        cnt+=str(i)+" "
+if not cnt=="":
     print(cnt)
 else:
     print("HE GOT AWAY!")
