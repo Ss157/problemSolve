@@ -32,5 +32,3 @@ for i in range(1,10,2):
     print("{:^10}".format("*"*i))
 for j in range(9,0,2):
     print("{:^10}".format("*"*j))
-
-#반복문 실습-9 21분 41초
