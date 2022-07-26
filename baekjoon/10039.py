@@ -6,4 +6,4 @@ for i in range(5):
     else:
         score_list+=[score]
 avg=sum(score_list)/5
-print(avg)
+print(int(avg))

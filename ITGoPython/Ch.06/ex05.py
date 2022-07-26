@@ -1,10 +1,15 @@
-#두 개의 정수를 입력받아 두 수 중에서 더 큰 수를
-#찾아서 리턴하는 함수
-def get_max(x,y):
-    if x>y:
-        maxi=x
-    else :
-        maxi=y
-    return maxi
-x,y=map(int,input("두 정수를 입력하세요. :").split())
-print("둘 중 더 큰 수는",get_max(x,y),"이다.")
+#정수를 입력받아서 소수를 판별하는 함수 
+# is_prime()를 작성하기
+#소수면 True를 아니면 False를 출력해라
+
+def is_prime(num):
+    flag=""
+    for i in range(2,num):
+        if num%i==0:
+            flag="False"
+            break
+        else:
+            flag="True"
+    return flag
+number=int(input())
+print(is_prime(number))
