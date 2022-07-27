@@ -8,9 +8,9 @@ for i in range(n):
             cnt_b+=1
         elif hero_name[j] in "Gg":
             cnt_g+=1
-        if cnt_b==cnt_g:
-            print("%s is NEUTRAL"%hero_name)
-        elif cnt_b>cnt_g:
-            print("%s is A BADDY"%hero_name)
-        else:
-            print("%s is GOOD"%hero_name)
+    if cnt_b==cnt_g:
+        print("%s is NEUTRAL"%hero_name)
+    elif cnt_b>cnt_g:
+        print("%s is A BADDY"%hero_name)
+    else:
+        print("%s is GOOD"%hero_name)
