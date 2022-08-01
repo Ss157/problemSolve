@@ -6,7 +6,7 @@ while True:
         break
     r,w,l=length.split()
     diagonal=(int(w)**2+int(l)**2)**(1/2)
-    if int(r)*2>diagonal:
+    if int(r)*2>=diagonal:
         print("Pizza %d fits on the table."%cnt)
     else:
         print("Pizza %d does not fit on the table."%cnt)

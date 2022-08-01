@@ -1,19 +1,12 @@
 T=int(input())
 for i in range(T):
     OX = input()
+    cnt=0
     sum=0
-
+    for j in OX:
+        if j=="O":
+            cnt+=1
+            sum+=cnt
+        else:
+            cnt=0
     print(sum)
-
-    #
-    """
-    for j in range(100):
-        try:
-            if 'O'==OX[j]==OX[j+1]==OX[j+2]:
-                sum =sum+1+2+3
-            elif 'O'==OX[j]==OX[j+1]:
-                sum =sum+1+2
-            elif 'O'==OX[j]:
-                sum =sum+1
-        except:
-            break"""
