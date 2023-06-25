@@ -8,8 +8,6 @@ int main(void){
         input -= 4;
         cnt++;
     }
-    printf("%d\n",input);
-    printf("%d\n",cnt);
     for(int i = 0; i < cnt; i++){
         printf("long ");
     }
