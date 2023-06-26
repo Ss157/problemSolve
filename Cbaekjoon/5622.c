@@ -14,7 +14,6 @@ int main(void){
         else if(ch == 'P' || ch == 'Q' || ch == 'R' || ch == 'S') cnt += 8;
         else if(ch == 'T' || ch == 'U' || ch == 'V') cnt += 9;
         else if(ch == 'W' || ch == 'X' || ch == 'Y' || ch == 'Z') cnt += 10;
-        printf("%d\n", cnt);
     }
     printf("%d\n", cnt);
 }
