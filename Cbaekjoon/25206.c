@@ -37,8 +37,6 @@ int main(void){
         else if(strcmp(score, "D0") == 0){
             ScoreAdd += 1.0 * credit;
         }
-        printf("ScoreAdd : %lf\n", ScoreAdd);
     }
-    printf("CreditAdd : %lf\n", CreditAdd);
     printf("%lf\n", ScoreAdd/CreditAdd);
 }
