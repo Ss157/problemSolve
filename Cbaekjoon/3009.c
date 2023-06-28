@@ -15,7 +15,7 @@ int main(void){
 
     scanf("%d", &x3);
     scanf("%d", &y3);
-    printf("%d %d %d %d %d %d\n", x1, x2, x3, y1, y2, y3);
+    
     if(x1 == x2){
         printf("%d ", x3);
     }
