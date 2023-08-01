@@ -13,8 +13,7 @@ int main(void){
     int future_base, present_base, base_10 = 0, digit;
     scanf("%d %d", &future_base, &present_base);
     scanf("%d", &digit);
-    
-    int cnt = 0;
+
     int num;
     while(digit--){
         scanf("%d", &num);
