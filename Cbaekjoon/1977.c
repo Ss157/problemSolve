@@ -7,7 +7,7 @@ int main() {
     int a[10000];
     scanf("%d %d",&m,&n);
  
-    for(int i=0; i<=n; i++) {
+    for(int i = 0; i <= n; i++) {
         a[i]=i*i;    
  
         if(m<=a[i]&&a[i]<=n){ 
