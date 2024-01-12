@@ -11,4 +11,3 @@ int main(void){
         printf("%lld\n", arr[N - 1]);
     }
 }
-//2 6 12   3 16
