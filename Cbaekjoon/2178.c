@@ -30,7 +30,6 @@ int bfs(int x, int y){
             
             queue[rear][0] = pop[0] + dx[i];
             queue[rear++][1] = pop[1] + dy[i];
-            // printf("%d %d\n", queue[rear - 1][0], queue[rear - 1][1]);
         }
     }
     return graph[N - 1][M - 1];
