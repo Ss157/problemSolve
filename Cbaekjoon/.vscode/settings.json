@@ -8,7 +8,8 @@
         "string": "cpp",
         "cstring": "cpp",
         "functional": "cpp",
-        "2_5,cpp": "c"
+        "2_5,cpp": "c",
+        "cstddef": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }
