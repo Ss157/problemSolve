@@ -7,7 +7,8 @@
         "iostream": "cpp",
         "string": "cpp",
         "cstring": "cpp",
-        "functional": "cpp"
+        "functional": "cpp",
+        "2_5,cpp": "c"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }
