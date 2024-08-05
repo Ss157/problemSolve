@@ -1,5 +1,5 @@
 #include <iostream>
-
+// 이코테 2021 2강 1번
 using namespace std;
 
 int main(void)
