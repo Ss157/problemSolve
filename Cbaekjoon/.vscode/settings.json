@@ -9,7 +9,8 @@
         "cstring": "cpp",
         "functional": "cpp",
         "2_5,cpp": "c",
-        "cstddef": "cpp"
+        "cstddef": "cpp",
+        "chrono": "cpp"
     },
     "C_Cpp.errorSquiggles": "disabled"
 }
